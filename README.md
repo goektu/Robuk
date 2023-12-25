@@ -9,6 +9,7 @@ The code runs with PyCX Simulator and has to be in the same directory with the s
 https://github.com/hsayama/PyCX or https://pycx.sourceforge.net/
 
 Running on Spyder requires some settings beforehand or it will throw Tkinter errors.
+
 From Tools-Preferences:
-  -Run: Execute in a dedicated module
-  -IPython console-Graphics-Graphics Backend: Qt5 
+-Run: Execute in a dedicated module
+-IPython console-Graphics-Graphics Backend: Qt5 
