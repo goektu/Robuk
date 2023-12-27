@@ -62,7 +62,6 @@ Then, fine tuning of these neighborhoods allows the model to **magnetize**, or r
   <img src="https://github.com/goektu/Robuk/assets/154448923/7b003912-bb32-46fd-bc86-b29242a756bb" alt="image" width="40%" height="auto" align= "left">
   <img src="https://github.com/goektu/Robuk/assets/154448923/3e15562c-bd7b-4363-9bcf-98cf3452ccfd" alt="image" width="40%" height="auto" align= "center">
   <br>
-  </br>
   <img src="https://github.com/goektu/Robuk/assets/154448923/e8c15da6-323b-42a8-baf9-cde7d7091c9f" alt="image" width="40%" height="auto" align= "center">
 </p>
 
