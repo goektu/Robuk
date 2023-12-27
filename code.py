@@ -29,29 +29,18 @@ import numpy as np
 L = 100  # size of space: LxL
 
 #p = 0.853553390594 ##above upper bound paramagnetic, first-order phase transition
-##tan^2(x) + tan(x) = 4.4548 = 1/0.224475 ~reciprocal of lower bound estimate
-
-#p = float(0.5 + (1 / (2 * sqrt(2)))) ##upper bound critical range ferrimagnetic ## H = ln(1+sqrt(2))
-#p = float(0.5 - (1 / (2 * sqrt(2)))) ##lower bound critical range antiferromagnetic ## H = -ln(1+sqrt(2))
-##ferrimagnet-antiferromagnet coupling #xferri ~ xantiferro
-##tan^2(x) + tan(x) ~ cos^2(pi/8) = p upper bound
-
+#p = float(0.5 + (1 / (2 * sqrt(2)))) ##upper bound critical range ferrimagnetic
+#p = float(0.5 - (1 / (2 * sqrt(2)))) ##lower bound critical range antiferromagnetic
 #p = 0.14644660940 #below lower bound paramagnetic, first-order phase transition
-##x = 2.271456 ~ 2D Ising square lattice critical temperature
-##tan^2(x) + tan(x) =  0,2212 ~ reciprocal of upper bound estimate
 
-#p = 1 - np.log(1+sqrt(2))/2
-#p = np.log(1+sqrt(2))/2 ##H* Ising critical inverse temperature
-##pfinal = pinitial
-##x = 1/(2*sqrt(2)) = H'
-##tan^2(x) + tan(x) = 0.505
+#p = np.log(1+sqrt(2))/2 ##Ising critical inverse temperature
 
-p = 1 - 1/(1 + np.exp(-(1/sqrt(2))))
-##tan^2(x) + tan(x) ~ 1 - ln(1+sqrt(2))/2 = 0.556
-##0.225 = ln(0.556/0.443)
+p = 1/(1 + np.exp(-(1/sqrt(2)))) ##critical point, maximum count1, minimum H
 
-#p = 1/(1 + np.exp(-(1/sqrt(2)))) #H' critical point, sigmoid to tangent transition
-##tan^2(x) + tan(x) = tanh(ln(1+sqrt(2))/2)
+#p = sqrt(np.log(2)) ##returns Ising critical inverse temperature as H
+
+#p = 0.5 * (1 + np.tanh(np.log(1+sqrt(2))/(2*sqrt(2)))) 
+##returns square root 2 divided by Ising critical temperature as H
 
 print p
 
