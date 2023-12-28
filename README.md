@@ -21,7 +21,7 @@ From Tools-Preferences:
 1. [Definition of the Model](https://goektu.github.io/Robuk/#definition-of-the-model)
 1. [Definition of Coupling](https://goektu.github.io/Robuk/#definition-of-coupling)
 1. [Trigonometric Identities](https://goektu.github.io/Robuk/#trigonometric-identities)
-1. [References](https://goektu.github.io/Robuk/#references).
+1. [References](https://goektu.github.io/Robuk/#references)
 
 # How to connect first-order and second-order phase transitions:
 ## Definition of the model
@@ -124,7 +124,18 @@ We may discern this as an Ising model from trigonometric substitutions. Differen
 
 $cos^2(\pi/8) = \dfrac{1}{2} + \dfrac{1}{2\sqrt{2}} $, and $sin^2(\pi/8) = \dfrac{1}{2} - \dfrac{1}{2\sqrt{2}} $, where $cos^2(\pi/8) - sin^2(\pi/8) = 2sin(\pi/8)cos(\pi/8) = \dfrac{1}{\sqrt{2}} $. 
 
-Given that $\dfrac{1}{2}$ is the symmetry point between both roots, we now replace the coupled random variables which are the spins, with bonds, using *duality* [1](https://github.com/goektu/Robuk/blob/main/README.md#1-lesson-9-notes-from-prof-susskind-video-lectures-publicly-available-on-youtube-httpswwwyoutubecomwatchvat4_s9vqjgc) . The random cluster model, which ties the percolation theory with Ising model, [2](
+Given that $\dfrac{1}{2}$ is the symmetry point between both roots, we now replace the coupled random variables which are the spins, with bonds, using *duality* [1](https://github.com/goektu/Robuk/blob/main/README.md#1-lesson-9-notes-from-prof-susskind-video-lectures-publicly-available-on-youtube-httpswwwyoutubecomwatchvat4_s9vqjgc) . The random cluster model, or the Fortuin-Kasteleyn percolation, which ties the percolation theory with Ising model, [2](https://github.com/goektu/Robuk/blob/main/README.md#2-httpsarxivorgabs171204651), presents the probability measure of the finite graph as:
+
+$$ P(\omega) = \dfrac{p^\omega (1-p)^{(1-\omega)} q}{Z} $$
+
+where $q$ is cluster-weight and for Ising model, $q = 2$. Substituting $p = cos^2(\pi/8)$ and $1-p = sin^2(\pi/8)$, and $\omega = \dfrac{1}{2}$, and keeping $Z = 1$ as the system is already normalized between $[0,1]$ the equation becomes:
+
+$$ P = 2(cos^2(\pi/8))^{\dfrac{1}{2}}(sin^2(\pi/8))^{\dfrac{1}{2}} $$
+
+$$ P = 2cos(\pi/8)sin(\pi/8) = \dfrac{1}{\sqrt{2}} $$
+
+thus affirming our result above.
+
 
 # References
 #### 1. Lesson 9. Notes from Prof. Susskind video lectures publicly available on YouTube, https://www.youtube.com/watch?v=AT4_S9vQJgc
