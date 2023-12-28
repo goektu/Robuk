@@ -20,6 +20,9 @@ From Tools-Preferences:
 # Index
 1. [Definition of the Model](https://goektu.github.io/Robuk/#definition-of-the-model)
 1. [Definition of Coupling](https://goektu.github.io/Robuk/#definition-of-coupling)
+1. [Trigonometric Identities](https://goektu.github.io/Robuk/#trigonometric-identities)
+1. [References](https://goektu.github.io/Robuk/#references).
+
 # How to connect first-order and second-order phase transitions:
 ## Definition of the model
 
@@ -37,7 +40,7 @@ General analogy would be driving a car. A tailing car is driving to the frontal 
 
 ### Inversing the Update Rule
 
-To create a coupling between the cell and its neighborhood states, the update rule is reversed. Instead of a neighborhood updating a cell, a cell's state dictates the neighborhood states.
+To initiate a drive command forward between the cell and its neighborhood states, the update rule is reversed. Instead of a neighborhood updating a cell, a cell's state dictates the neighborhood states.
 
 <p align="center">
   <img src="https://github.com/goektu/Robuk/assets/154448923/1a0815cb-b8a5-4d24-8e36-1ab49632150c" alt="image" width="50%" height="auto" align= "center">
@@ -46,7 +49,7 @@ To create a coupling between the cell and its neighborhood states, the update ru
 
 ### Moore and von Neumann Neighborhood Competition
 
-To create the coupling between driving cells, competition in cell neighborhoods are established. To define von Neumann and Moore neighborhoods, von Neumann is a cross-type 4-neighbor space, and Moore is a square-type 8-neighbor space.
+Competition between cells in multiple neighborhoods are established to fine tune the model. To define von Neumann and Moore neighborhoods, von Neumann is a cross-type 4-neighbor space, and Moore is a square-type 8-neighbor space.
 
 <p align="center">
   <img src="https://github.com/goektu/Robuk/assets/154448923/bdbe2444-4bc2-429b-bc9f-94bbf4f511dc" alt="image" width="30%" height="auto" align= "center">
@@ -82,4 +85,47 @@ Now, onto exploration of this behavior.
 
 ## Definition of Coupling
 
+A coupling function is inserted into the cellular automaton. The equation is given as below.
 
+$p(1-p) = \dfrac{1}{8}$, where $\dfrac{1}{8}$ is the Moore neighborhood average *g*. Solving for the equation:
+
+$$ p^2 - p + \dfrac{1}{8} = 0 $$
+
+$$ p = \dfrac{1}{2} \pm \dfrac{1}{2\sqrt{2}} $$ 
+
+<p align="center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/736e2620-6468-41ea-a381-7316a1cfe6a2" alt="image" width="50%" height="auto" align= "center">
+</p>
+
+When the initial probability *p* is assigned to these roots, with immediate values above (for + root) and below (for - root) first-order phase transition takes place. This is because the values of these roots are coupled. 
+
+<p align="center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/1392f43f-180d-4aed-942a-0c8995fb5663" alt="image" width="50%" height="auto" align= "center">
+</p>
+
+Example images, from top-left, clockwise:
+1. No coupling equation
+1. No drive mechanism
+1. *-* root
+1. *+* root
+
+<p align="center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/55887e0c-af3e-46b0-8ba3-0d3c37d8139a" alt="image" width="40%" height="auto" align= "center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/c1d54263-a2bb-473d-96d0-1d40afb043f8" alt="image" width="40%" height="auto" align= "center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/07c978aa-a52c-4b1c-91d8-526c11c3e35e" alt="image" width="40%" height="auto" align= "center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/7f92640f-476c-4b71-bc3a-7244cc4508bb" alt="image" width="40%" height="auto" align= "center">  
+</p>
+
+As one can tell, the evolution of the coupled system is towards being stretched horizontally in thin line segments. The critical point of the system is then defined as the probability density that can contain the most cells withs state value 1.
+
+## Trigonometric Identities
+
+We may discern this as an Ising model from trigonometric substitutions. Difference between roots is the probability space of coupled densities.
+
+$cos^2(\pi/8) = \dfrac{1}{2} + \dfrac{1}{2\sqrt{2}} $, and $sin^2(\pi/8) = \dfrac{1}{2} - \dfrac{1}{2\sqrt{2}} $, where $cos^2(\pi/8) - sin^2(\pi/8) = 2sin(\pi/8)cos(\pi/8) = \dfrac{1}{\sqrt{2}} $. 
+
+Given that $\dfrac{1}{2}$ is the symmetry point between both roots, we now replace the coupled random variables which are the spins, with bonds, using *duality*[1]. The random cluster model, which ties the percolation theory with Ising model, 
+
+# References
+[1] Lesson 9. Notes from Prof. Susskind video lectures publicly available on YouTube, https://www.youtube.com/watch?v=AT4_S9vQJgc
+[2]
