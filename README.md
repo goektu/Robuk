@@ -1,6 +1,13 @@
 # Robuk
 A driven Ising model, with multiple first-order and second-order phase transitions.
 
+Previous work:
+<object data="https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf" type="application/pdf" width="750px" height="750px">
+    <embed src="https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf">Portfolio</a>.</p>
+    </embed>
+</object>
+
 # Dependencies
 Since the code was written in Python 2.7, it is important to use a legacy software such as Anaconda 2's Spyder
 https://repo.anaconda.com/archive/
@@ -15,7 +22,10 @@ From Tools-Preferences:
 1. IPython console
 - Graphics - Graphics Backend: Qt5 
 
-# How to link first-order and second-order phase transitions:
+# Index
+1. [Definition of the Model](https://goektu.github.io/Robuk/#definition-of-the-model)
+1. [Definition of Coupling](https://goektu.github.io/Robuk/#definition-of-coupling)
+# How to connect first-order and second-order phase transitions:
 ## Definition of the model
 
 A cellular automaton is a search function around a cell. There is an update rule, which initiates the process of determining the cell's state in the next step of the function.
@@ -74,4 +84,7 @@ Below is the graphical representation of the magnetization. When the *g* values 
 </p>
 
 Now, onto exploration of this behavior. 
+
+## Definition of Coupling
+
 
