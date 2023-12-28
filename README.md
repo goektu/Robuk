@@ -124,8 +124,9 @@ We may discern this as an Ising model from trigonometric substitutions. Differen
 
 $cos^2(\pi/8) = \dfrac{1}{2} + \dfrac{1}{2\sqrt{2}} $, and $sin^2(\pi/8) = \dfrac{1}{2} - \dfrac{1}{2\sqrt{2}} $, where $cos^2(\pi/8) - sin^2(\pi/8) = 2sin(\pi/8)cos(\pi/8) = \dfrac{1}{\sqrt{2}} $. 
 
-Given that $\dfrac{1}{2}$ is the symmetry point between both roots, we now replace the coupled random variables which are the spins, with bonds, using *duality* [1]( . The random cluster model, which ties the percolation theory with Ising model, 
+Given that $\dfrac{1}{2}$ is the symmetry point between both roots, we now replace the coupled random variables which are the spins, with bonds, using *duality* [1](https://github.com/goektu/Robuk/blob/main/README.md#1-lesson-9-notes-from-prof-susskind-video-lectures-publicly-available-on-youtube-httpswwwyoutubecomwatchvat4_s9vqjgc) . The random cluster model, which ties the percolation theory with Ising model, [2](
 
 # References
-#### 1 [Lesson 9. Notes from Prof. Susskind video lectures publicly available on YouTube, https://www.youtube.com/watch?v=AT4_S9vQJgc]
-[2]
+#### 1. Lesson 9. Notes from Prof. Susskind video lectures publicly available on YouTube, https://www.youtube.com/watch?v=AT4_S9vQJgc
+#### 2. https://arxiv.org/abs/1712.04651
+
