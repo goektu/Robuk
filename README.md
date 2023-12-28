@@ -1,5 +1,5 @@
 # Robuk
-A driven Ising model, with multiple first-order and second-order phase transitions.
+A driven Ising model, with multiple first-order and second-order phase transitions. [Code available on Github](https://github.com/goektu/Robuk)
 
 [Download Portfolio](https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf)
 
