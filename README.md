@@ -1,12 +1,7 @@
 # Robuk
 A driven Ising model, with multiple first-order and second-order phase transitions.
 
-Previous work:
-<object data="https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf" type="application/pdf" width="750px" height="750px">
-    <embed src="https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf" type="application/pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf">Portfolio</a>.</p>
-    </embed>
-</object>
+[Download Portfolio](https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf)
 
 # Dependencies
 Since the code was written in Python 2.7, it is important to use a legacy software such as Anaconda 2's Spyder
