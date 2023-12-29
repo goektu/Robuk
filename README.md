@@ -21,9 +21,10 @@ From Tools-Preferences:
 1. [Definition of the Model](https://github.com/goektu/Robuk?tab=readme-ov-file#definition-of-the-model)
 1. [Definition of Coupling](https://github.com/goektu/Robuk?tab=readme-ov-file#definition-of-coupling)
 1. [Trigonometric Identities](https://github.com/goektu/Robuk?tab=readme-ov-file#trigonometric-identities)
+1. [Boltzmann Factor and Machine](https://github.com/goektu/Robuk?tab=readme-ov-file#trigonometric-identities)
 1. [References](https://github.com/goektu/Robuk?tab=readme-ov-file#references)
 
-# How to connect first-order and second-order phase transitions:
+# Connecting first-order and second-order phase transitions
 ## Definition of the model
 
 A cellular automaton is a search function around a cell. There is an update rule, which initiates the process of determining the cell's state in the next step of the function.
@@ -106,14 +107,18 @@ When the initial probability *p* is assigned to these roots, with immediate valu
 Example images, from top-left, clockwise:
 1. No coupling equation
 1. No drive mechanism
-1. *-* root
 1. *+* root
+1. Above *+* root
+1. Below *-* root
+1. *-* root
 
 <p align="center">
-  <img src="https://github.com/goektu/Robuk/assets/154448923/55887e0c-af3e-46b0-8ba3-0d3c37d8139a" alt="image" width="40%" height="auto" align= "center">
-  <img src="https://github.com/goektu/Robuk/assets/154448923/c1d54263-a2bb-473d-96d0-1d40afb043f8" alt="image" width="40%" height="auto" align= "center">
-  <img src="https://github.com/goektu/Robuk/assets/154448923/07c978aa-a52c-4b1c-91d8-526c11c3e35e" alt="image" width="40%" height="auto" align= "center">
-  <img src="https://github.com/goektu/Robuk/assets/154448923/7f92640f-476c-4b71-bc3a-7244cc4508bb" alt="image" width="40%" height="auto" align= "center">  
+  <img src="https://github.com/goektu/Robuk/assets/154448923/55887e0c-af3e-46b0-8ba3-0d3c37d8139a" alt="image" width="30%" height="auto" align= "center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/c1d54263-a2bb-473d-96d0-1d40afb043f8" alt="image" width="30%" height="auto" align= "center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/07c978aa-a52c-4b1c-91d8-526c11c3e35e" alt="image" width="30%" height="auto" align= "center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/7f92640f-476c-4b71-bc3a-7244cc4508bb" alt="image" width="30%" height="auto" align= "center">  
+  <img src="https://github.com/goektu/Robuk/assets/154448923/a56df567-7c59-456f-a7d5-632240678893" alt="image" width="30%" height="auto" align= "center">
+  <img src="https://github.com/goektu/Robuk/assets/154448923/c365f329-52ed-4bc6-87ba-3371acd28791" alt="image" width="30%" height="auto" align= "center">   
 </p>
 
 As one can tell, the evolution of the coupled system is towards being stretched horizontally in thin line segments. The critical point of the system is then defined as the probability density that can contain the most cells withs state value 1.
@@ -136,6 +141,7 @@ $$ P = 2cos(\pi/8)sin(\pi/8) = \dfrac{1}{\sqrt{2}} $$
 
 thus affirming our result above.
 
+## Boltzmann Factor and Machine
 
 # References
 #### 1. Lesson 9. Notes from Prof. Susskind video lectures publicly available on YouTube, https://www.youtube.com/watch?v=AT4_S9vQJgc
