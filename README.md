@@ -18,10 +18,10 @@ From Tools-Preferences:
 - Graphics - Graphics Backend: Qt5 
 
 # Index
-1. [Definition of the Model](https://goektu.github.io/Robuk/#definition-of-the-model)
-1. [Definition of Coupling](https://goektu.github.io/Robuk/#definition-of-coupling)
-1. [Trigonometric Identities](https://goektu.github.io/Robuk/#trigonometric-identities)
-1. [References](https://goektu.github.io/Robuk/#references)
+1. [Definition of the Model](https://github.com/goektu/Robuk?tab=readme-ov-file#definition-of-the-model)
+1. [Definition of Coupling](https://github.com/goektu/Robuk?tab=readme-ov-file#definition-of-coupling)
+1. [Trigonometric Identities](https://github.com/goektu/Robuk?tab=readme-ov-file#trigonometric-identities)
+1. [References](https://github.com/goektu/Robuk?tab=readme-ov-file#references)
 
 # How to connect first-order and second-order phase transitions:
 ## Definition of the model
