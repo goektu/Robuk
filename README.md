@@ -1,5 +1,10 @@
 # Robuk
-A driven Ising model, with multiple first-order and second-order phase transitions. [Code available on Github](https://github.com/goektu/Robuk)
+A driven coupled Ising model, with multiple first-order and second-order phase transitions. [Code available on Github](https://github.com/goektu/Robuk)
+
+These phase transitions happen at points with exact trigonometric closed-form expressions. 
+Transformation of these trigonometric expressions into Boltzmann factor returns a $tan^2(x) + tan(x)$ equation that is plotted straight from the cellular automaton, showing a critical point inside the driven model that has the lowest energy.  
+
+
 
 [Download Portfolio](https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf)
 
