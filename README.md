@@ -131,6 +131,4 @@ As one can tell, the evolution of the coupled system is towards being stretched 
 
 $cos^2(\pi/8) = \dfrac{1}{2} + \dfrac{1}{2\sqrt{2}} $, and $sin^2(\pi/8) = \dfrac{1}{2} - \dfrac{1}{2\sqrt{2}} $, where $cos^2(\pi/8) - sin^2(\pi/8) = 2sin(\pi/8)cos(\pi/8) = \dfrac{1}{\sqrt{2}} $. 
 
-# References
-
 
