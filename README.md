@@ -1,7 +1,7 @@
 # Robuk
 A three-layer neural network Ising model, with multiple first-order and second-order phase transitions. [Code available on Github](https://github.com/goektu/Robuk)
 
-![network](https://github.com/goektu/Robuk/assets/154448923/c70412e3-141a-4e3c-b46c-0e39e156cb36)
+![network-1](https://github.com/goektu/Robuk/assets/154448923/a65897e5-735f-41ab-9704-f2c72ee70efe)
 
 
 First-order and second-order phase transitions happen at points with exact trigonometric closed-form expressions. 
