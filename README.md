@@ -8,13 +8,6 @@ Transformation of these trigonometric expressions into Boltzmann factor returns 
 
 The equation $arctan^2(x) + 2arctan(x)$, is derived from the model and then used as an activation function. It has a test accuracy of 89.12%, better than Leaky ReLU's previous best 88.92%, while regular $arctan(x)$ activation function only has a test accuracy of 87.62%. These results can be replicated on: https://colab.research.google.com/github/phlippe/uvadlc_notebooks/blob/master/docs/tutorial_notebooks/tutorial3/Activation_Functions.ipynb
 
-<!-- MathJax -->
-
-<script type="text/javascript"
-
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-
-</script>
 [Download Portfolio](https://github.com/goektu/Robuk/files/13787025/Portfolio.pdf)
 
 # Dependencies
