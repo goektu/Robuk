@@ -1,5 +1,5 @@
 # Robuk
-[A three-layer neural network Ising model](https://goektu.github.io/), with multiple first-order and second-order phase transitions. [Code available on Github](https://github.com/goektu/Robuk)
+[A three-layer neural network Ising model](https://goektu.github.io/), with multiple first-order and second-order phase transitions.
 
 First-order and second-order phase transitions happen at points with exact trigonometric closed-form expressions. 
 Transformation of these trigonometric expressions into Boltzmann factor returns a $tan^2(x) + tan(x)$ equation that is plotted straight from the cellular automaton, showing a critical point inside the driven model with the highest number of cells with state 1, and 2D square lattice percolation threshold with the lowest overall energy.  
